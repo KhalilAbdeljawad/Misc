@@ -42,8 +42,7 @@ public class Files {
                 text += line + "\n";
             }
         } catch (IOException x) {
-           // msgbox("خطأ في قراءة بيانات مهام التركيب!");
-            //  System.err.format("IOException: %s%n", x);
+          
             return null;
         }
 
